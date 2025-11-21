@@ -33,7 +33,7 @@ class WallsRepository(
             // Cache the result
             val galleryEntities = response.map { actress ->
                 GalleryEntity(
-                    id = actress.actressId,
+                    id = actress.id,
                     name = actress.name,
                     thumbnail = actress.thumbnail
                 )
@@ -48,9 +48,13 @@ class WallsRepository(
                 if (cachedGalleries.isNotEmpty()) {
                     val actresses = cachedGalleries.map { entity ->
                         Actress(
-                            actressId = entity.id,
+                            id = entity.id,
                             name = entity.name,
-                            thumbnail = entity.thumbnail ?: ""
+                            thumbnail = entity.thumbnail,
+                            age = null,
+                            nationality = null,
+                            profession = null,
+                            source = "local_cache"
                         )
                     }
                     Result.success(actresses)
