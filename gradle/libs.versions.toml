@@ -12,7 +12,7 @@ composeBom = "2025.10.01"
 
 # Networking
 retrofit = "3.0.0"
-okhttp = "5.2.1"
+okhttp = "5.3.2"
 gson = "2.13.2"
 
 # Image Loading
