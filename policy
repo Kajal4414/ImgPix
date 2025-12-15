@@ -1,0 +1,33 @@
+Privacy Policy for Walls App
+
+This Privacy Policy outlines our policies regarding the collection, use, and disclosure of information when you use the Walls (Android Online Gallery App).
+
+1. Information We Collect
+
+We do not collect any Personally Identifiable Information (PII) such as your name, email address, or phone number.
+
+We may collect Non-Personal Data and Usage Data to improve the App's performance and functionality:
+
+* Usage Data: Anonymous data collected through Google Play Services (e.g., device type, crash reports, interaction data).
+* Local Storage Data: Data stored only on your device:
+    * Favorites: Profiles and images you mark as favorites are stored locally using Room Database and DataStore. This data is not uploaded to our servers.
+    * Downloaded Images: Images saved to your device gallery are stored in your device's local storage.
+
+2. Third-Party Services
+
+The App utilizes third-party services that may collect information used to provide their services:
+
+* Google Play Services
+* Actress Gallery API: The App retrieves gallery data from https://actress-gallery-api.onrender.com/. This API does not collect your identifiable information.
+
+3. Data Security
+
+We strive to use commercially acceptable means of protecting your information. However, since we do not collect PII, the associated risk is minimal. Remember that no method of transmission over the internet or method of electronic storage is 100% secure.
+
+4. Changes to This Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+5. Contact Us
+
+If you have any questions or suggestions about this Privacy Policy, please contact us via the Contact Email provided in the Google Play Console Listing.
